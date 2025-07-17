@@ -7,9 +7,9 @@ This Flutter project classifies images as either **cat** or _dog_ using a pre-tr
 ```mermaid
 flowchart TD
     A0["TFLite Model"]
-    A1["`tflite_flutter` Package"]
-    A2["`tflite_flutter_helper` Package"]
-    A3["Image Picker (`image_picker` package)"]
+    A1["tflite_flutter Package"]
+    A2["tflite_flutter_helper Package"]
+    A3["Image Picker (image_picker package)"]
     A4["Asset Management (assets/ directory)"]
     A1 -- "Loads and runs" --> A0
     A2 -- "Simplifies interaction" --> A1
